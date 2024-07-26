@@ -1,0 +1,6 @@
+# dispayingtime in seconds
+seconds = eval(input("Enter a number in seconds : "))
+minutes = seconds//60
+
+remainingSeconds = seconds % 60
+print("Entered seconds", seconds,"is", minutes,"minutes and", remainingSeconds,"seconds")
