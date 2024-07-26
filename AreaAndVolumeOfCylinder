@@ -1,0 +1,12 @@
+#Compute volume of cylinder
+# area = (radius**2)*pi
+#volume = area * length
+pi = 3.1415
+radius = eval(input("Enter the radius of the cylinder: "))
+length = eval(input("Enter the length of the cylinder: "))
+
+#compute area
+area = (radius**2)*pi
+volume = area * length
+
+print("For the radius of",radius," of the computed cylinder \n Area :", area ,"\nVolume :",volume)
