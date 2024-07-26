@@ -1,0 +1,8 @@
+#conversion of celcius to farenhite
+# formula farenhite = (9/5)*celcius + 32
+
+celcius = eval(input("Enter the measure of Tempreature to be converted into Farenhite: "))
+
+farenhite = (9/5)*celcius +32
+
+print(celcius,"Celcius in Farenhite is", farenhite)
